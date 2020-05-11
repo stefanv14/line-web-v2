@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Open sans', sans-serif;
+}
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	background-color:#cccccc;
+	font-family: 'Open sans', sans-serif
+
+}
+.okvir {
+	width:1100px;
+	margin:0px auto;
+	background-color:white;
+	}
+#header {
+	height:80px;
+	background-color:#921113;
+	border-bottom:4px solid grey;
+}
+#logo {
+	width:220px;
+	float:left;
+	border-right:0.2px solid #B5B0B0;
+	
+		}
+#meni {
+	float:left;
+	margin-left:30px;
+	margin-top:20px;
+	
+	
+	
+}
+#meni ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#meni ul li {
+	float: left;
+	margin-left:10px;
+}
+#meni ul li a {
+	display: block;
+	padding: 10px;
+	height: 20px;
+	line-height: 20px;
+	transition: 0.6s all ease;
+	font-size:21px;
+}
+#meni ul li a:link,
+#meni ul li a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+#meni ul li a:hover {
+	padding:20px;
+	background-color:brown;
+}
+#meni ul li a:active {
+	background: #999;
+}
+#hero  {
+	width:1100px;
+	background-image:url(images/front.jpg);
+	background-size:cover;
+	height:360px;
+}
+#sredina {
+	overflow:hidden;
+	margin-left:15px;
+}
+#sredina .imgDesno {
+	float:right;
+	padding-left:20px;
+	
+}
+#main {
+	display:inline-block;
+	width:718px;
+	float:left;
+	height:750px;
+	line-height:23px;
+}
+#main h1 {
+	text-transform:uppercase;
+	width:700px;
+}
+#tekstLevo img {
+	float:left;
+	margin-right:10px;
+}
+#tekstLevo {
+	width:340px;
+}
+#donji #tekstLevo {
+	float:left;
+	}
+#donji #tekstDesno { 
+	float:right; 
+}
+#tekstDesno {
+	width:350px;
+	
+}
+#donji {
+	margin-top:25px;
+}
+#tekstLevo h3 {
+	margin-bottom:15px;
+	text-transform:uppercase;
+	color:grey;
+}
+#tekstDesno h3 {
+	margin-bottom:15px;
+	text-transform:uppercase;
+	color:grey;
+}
+#tekstDesno img {
+	float:left;
+	margin-right:10px;
+}
+#sidebar {
+	width:350px;
+	height:650px; 
+	background-color:#eeeeee;
+	float:right;
+}
+#footer {
+	background-color:#fafafa;
+	border-top:4px solid rgba(0,0,0,0.10);
+	height:50px;
+	clear:both;
+
+}
+#footer p {
+	text-align:center;
+	padding-top:15px;
+	
+}
+#sredina h1 {
+	border-bottom:4px solid #921113;
+	margin-top:40px;
+	margin-bottom:20px;
+	font-size:25px;
+	
+	
+	}
+#sidebar h1 {
+	margin-right:20px;
+	margin-left:20px;
+	border-bottom:4px solid rgba(0,0,0,0.15);
+}
+#main h2 {
+	border-bottom:4px solid #921113;
+	margin-bottom:20px;
+	margin-right:20px;
+
+}
+#main {
+	margin-top:6px;
+}
+#main a {
+	color:red;
+	text-decoration:none;
+}
+#sidebar p {
+	margin:20px;
+	font-size:14px;
+}
+#sidebar a {
+	color:red;
+	text-decoration:none;
+}
+.prvi {padding:5px 10px; background-color:grey; margin-right:5px;color:white;}
+.drugi {padding:5px 10px; background-color:grey; margin-right:5px;color:white;}
+.treci {padding:5px 10px; background-color:grey; margin-right:5px;color:white;}
+.cetvrti {padding:5px 10px; background-color:grey; margin-right:5px;color:white;}
+.peti {padding:5px 5px;;background-color:grey;color:white;}
+.sesti {padding:5px 10px; background-color:grey; margin-right:5px;color:white;}
+.sedmi {padding:5px 10px; background-color:grey; margin-right:5px;color:white;}
+
+.prvi:hover {background-color:#921113;}
+.drugi:hover {background-color:#921113;}
+.treci:hover {background-color:#921113;}
+.cetvrti:hover {background-color:#921113;}
+.peti:hover {background-color:#921113;}
+.sesti:hover {background-color:#921113;}
+.sedmi:hover {background-color:#921113;}
+#sidebar img {
+	width:310px;
+	height:190px;
+	margin-top:20px;
+	margin-left:20px;
+}
